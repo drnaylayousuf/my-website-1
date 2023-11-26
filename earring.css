@@ -1,0 +1,399 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Satisfy&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbarimage{
+    border-radius: 20px;
+
+}
+ 
+   /* navbar  of bridal.css */
+  
+
+     /* Make navbar responsive */
+     @media (max-width: 800px) {
+      .navbar-collapse {
+          background-color:palevioletred; /* Add background color for better visibility */
+      }
+
+      .navbar-toggler {
+        color: rgba(102, 6, 75, 0.719); /* Adjust color for better visibility */
+       
+      }
+  }
+
+
+
+ /* Make navbar responsive */
+ @media (max-width: 800px) {
+  .navbar-collapse {
+      background-color: #f4f4f4; /* Add background color for better visibility */
+  }
+
+  .navbar-toggler {
+      color: #fff; /* Adjust color for better visibility */
+  }
+}
+
+
+
+
+    /* navbar  of bridal.css */
+ 
+  /* New Image Div */
+  .image-div {
+    margin-top: 0px; /* Adjust margin as needed */
+    text-align: center;
+    width: 100vw; /* Full width of the viewport */
+    height: 100vh; /* Full height of the viewport */
+    background-image: url('./image/hoverimage1.jpg'); /* Default background image */
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.5s ease; /* Add a smooth transition effect */
+  }
+
+  .image-div:hover {
+    background-image: url('./image/hoverimage2.jpg'); /* Hover background image */
+  }
+
+  /* New Heading Style */
+  .collectionheading {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #333; /* Adjust the color as needed */
+  }
+.collectionicon{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Ephesis', cursive;
+  font-family: 'Satisfy', cursive;
+}
+  /* New Image Div */
+
+  .slider-container {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.slider-inner {
+    display: flex;
+    width: 400%; /* 100% for each item */
+    transition: transform 1s linear; /* Use linear transition for a constant speed */
+    animation: runEffect 10s infinite linear; /* Adjusted animation duration */
+}
+
+.slider-item {
+    flex: 1;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 0 10px;
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.slider-item img {
+    width: 300%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+@keyframes runEffect {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%); /* Adjusted to match the width of .slider-inner */
+    }
+}
+.slider-container {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    
+}
+
+.slider-inner {
+    display: flex;
+    width: 450%; /* 100% for each item */
+    transition: transform 1s linear; /* Use linear transition for a constant speed */
+    animation: runEffect 10s infinite linear; /* Adjusted animation duration */
+}
+
+.slider-item {
+    flex: 1;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 0 10px;
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.slider-item img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+@keyframes runEffect {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%); /* Adjusted to match the width of .slider-inner */
+    }
+}
+/* featuredproducth */
+
+.featuredproducth1{
+ text-align: center;
+  background: linear-gradient(-45deg,  #800080,  #00FFFF, #FFC72C, #FF00BF);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+ ;
+ color: rgb(136, 32, 66);
+ font-family: 'Satisfy', cursive;
+ margin-top: 20px;
+ padding-top: 10px;
+
+ 
+}
+
+.featuredproducth2{
+ margin-bottom: 20px;
+}
+
+/* featuredproducth */
+
+
+/* card css */
+
+       /* overlay hover */
+
+       card {
+        position: relative;
+    }
+
+    .card .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        /* this is hover over card color */
+        background-color: rgba(235, 62, 105, 0.5); /* Adjust the overlay background color and opacity */
+        transition: opacity 0.3s ease;
+    }
+
+    .card:hover .overlay {
+        opacity: 1;
+    }
+
+    .overlay p {
+        color: #fff; /* Adjust the text color */
+        font-size: 20px; /* Adjust the font size */
+    }
+
+    .overlay button {
+        margin-top: 10px;
+    }
+  
+/* overlay hover */
+
+/* button of card color change */
+
+.custom-btn {
+background-color: rgb(209, 142, 153); /* Specify your desired background color */
+color: #fff; /* Specify your desired text color */
+}
+
+.custom-btn:hover {
+background-color: rgb(218, 105, 124);  /* Specify your desired background color on hover */
+}
+
+
+
+/* button of card color change */
+
+@media only screen and (max-width: 1126px) {
+.cardcontainer {
+justify-content: center;
+
+}
+}
+
+
+@media only screen and (max-width: 900px) {
+.cardcontainer {
+/* justify-content: center; */
+margin-left: 40px;
+padding-left: 40px;
+}
+}
+
+
+
+
+.cardcontainer {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+
+.card {
+margin: 15px;
+/* width: 18rem;  */
+/* Specify your desired width */
+}
+
+
+@media only screen and (max-width: 1024px) {
+.cardcontainer {
+   
+    display: flex;
+flex-wrap: wrap;
+}
+
+}
+
+@media only screen and (max-width: 768px) {
+.cardcontainer {
+    justify-content: center;
+    /* display: flex;
+flex-wrap: wrap; */
+}
+
+}
+
+.cardescription{
+color: rgb(136, 32, 66);
+text-align: center;
+}
+
+/* card css */
+ 
+
+
+/* image 2 hover of explore gift & button */
+
+.image2-container2 {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  margin-bottom: 0px;
+  margin-top: 20px;
+
+}
+
+.image2-container2 img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.image2-container2:hover img {
+  transform: scale(1.1);
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.image2-container2:hover .overlay2 {
+  opacity: 1;
+}
+
+.overlay2 h2,
+.overlay2 p {
+  color: #fff;
+  font-family: 'Dancing Script', cursive;
+  margin: 0;
+  margin-bottom: 22px;
+}
+
+.buttonexploregift {
+  background-color: transparent;
+  color: #ffd700; /* gold color */
+  border: 2px solid #ffd700;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: 'Dancing Script', cursive;
+}
+
+.buttonexploregift:hover {
+  background-color: #ffd700; /* gold color on hover */
+  color: #000;
+}
+
+/* image 2 hover of explore gift & button */
+
+
+
+
+/* footer */
+
+.footerheader {
+  background-image:  
+  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+  url('./image/footerbackgroundimage.webp'); /* Replace with the actual path to your image file */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* filter: brightness(50%);  */
+  margin-top: 30px;
+  font-size: 12px;
+
+}
+
+
+
+/* footer */
+
+
+
+

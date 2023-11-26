@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Dancing+Script&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbarimage{
+    border-radius: 14px;
+
+}
+
+/* **************** */
+
+
+
+/* ***************** */
+/* Slideshow container */
+.slideshow-container {
+max-width: 100%;
+position: relative;
+margin: auto;
+}
+
+/* Make the images invisible by default */
+.Containers {
+display: none;
+}
+
+/* forward & Back buttons */
+.Back, .forward {
+cursor: pointer;
+position: absolute;
+top: 48%;
+width: auto;
+margin-top: -23px;
+padding: 17px;
+color: grey;
+font-weight: bold;
+font-size: 19px;
+transition: 0.4s ease;
+border-radius: 0 5px 5px 0;
+user-select: none;
+}
+
+/* Place the "forward button" to the right */
+.forward {
+right: 0;
+border-radius: 4px 0 0 4px;
+}
+
+/*when the user hovers,add a black background with some little opacity */
+.Back:hover, .forward:hover {
+background-color: rgba(0,0,0,0.8);
+}
+
+@media only screen and (min-width: 1107px) {
+    .Infor1 {
+      color: #eef8f8;
+      font-size: 40px;
+      padding: 10px 14px;
+      position: absolute;
+      margin-left: 0; /* Align to the left side */
+      text-align: left; /* Align text to the left */
+      top: 10px;
+      margin-top: 20px;
+      padding-left: 20px;
+      margin-left: 18px;
+      font-family: 'Crimson Text', serif;
+    }
+    }
+    
+    @media only screen and (min-width: 820px ),( max-width: 1200px )  {
+      .Infor1 {
+        color: #eef8f8;
+        font-size: 20px;
+        padding: 10px 14px;
+        position: absolute;
+        margin-left: 0; /* Align to the left side */
+        text-align: left; /* Align text to the left */
+        top: 10px;
+        margin-top: 20px;
+        padding-left: 20px;
+        margin-left: 18px;
+        font-family: 'Crimson Text', serif;
+      }
+      }
+
+    @media only screen and (max-width: 780px) {
+  .Infor1 {
+    color: #eef8f8;
+    font-size: 20px;
+    padding: 10px 14px;
+    position: absolute;
+    margin-left: 0; /* Align to the left side */
+    text-align: left; /* Align text to the left */
+    top: 10px;
+    /* margin-top: 9px; */
+    padding-left: 24px;
+    margin-left: 18px;
+    font-family: 'Crimson Text', serif;
+    height: 300px;
+  }
+    }
+  
+    
+
+
+  .carousel1image{
+    color: rgb(40, 128, 128);
+    padding-top: 10px;
+    font-family: 'Dancing Script', cursive;
+    padding-left: 18px;
+    font-size: 32px;
+    padding-bottom: 6px;
+
+  }
+
+
+
+.span1 {
+color: rgba(3, 16, 126, 0.836);
+font-family: 'Satisfy', cursive;
+font-size: 35px;
+padding-left: 20px;
+
+}
+
+.span2 {
+color: rgb(247, 243, 238);
+font-size: 35px;
+font-family: 'Dancing Script', cursive;
+padding-left: 20px;
+padding-top: 50px;
+margin-top: 50px;
+font-weight: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+.span2 {
+  font-size: 20px; /* Adjust the font size as needed */
+  text-align: center; /* Center the text */
+  padding-left: 10px; /* Adjust padding as needed */
+  padding-top: 30px; /* Adjust padding as needed */
+  margin-top: 30px; /* Adjust margin as needed */
+  font-weight: 50px; /* Note: This looks like a typo, consider adjusting the value */
+}
+}
+
+
+@media only screen and (max-width: 800px) {
+.span3 {
+  color: rgb(224, 220, 214);
+  font-family: 'Crimson Text', serif;
+  font-size: 16px;
+  text-align: center;
+  line-height: 4px;
+}
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1106px) {
+.span3 {
+  color: rgb(224, 220, 214);
+  font-family: 'Crimson Text', serif;
+  font-size: 16px; /* You can adjust this size as needed */
+  text-align: center;
+  line-height: 4px;
+}
+}
+
+@media only screen and (min-width: 1107px) {
+.span3 {
+  color: rgb(224, 220, 214);
+  font-family: 'Crimson Text', serif;
+  font-size: 25px;
+  text-align: left; /* You can adjust this alignment as needed */
+}
+}
+    /* categories of items  */
+
+    .containercategory{
+      margin-top: 20px;
+      margin-left: 12px;
+      margin-right: 12px;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    
+    .containercategory,h2{
+      margin-bottom: 20px;
+    }
+    
+    .containercategory,h4 {
+      margin-top: 20px;
+      color: #df28b7;
+      margin-bottom: 20px;
+    }
+    
+    .containercategory,h4 {
+      margin-bottom: 30px;
+      color: rgb(230, 218, 50);
+    }
+
+ /* categories of items  */
+
+ /* view all product */
+
+.buttonallproduct {
+  margin-top: 60px;
+  position: relative;
+  background-image: url('https://www.lonmart.com/media/6143/shutterstock_544617529.jpg?anchor=center&mode=crop&width=1920&height=480&rnd=133238708277970000');
+  background-size: cover; /* Adjust the background size as needed */
+  background-position: center; /* Center the background image */
+  text-align: center;
+  padding: 50px; /* Add padding as needed */
+  height: 100vh; /* Set height to 100% of viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  border-radius: 12px;
+  
+}
+
+.buttonviewallproduct, .viewproduct  {
+  text-align: center;
+  margin-top: 20px; 
+  background-color: #03152c; /* Button background color */
+  color: #ece0e0; /* Button text color */
+   padding: 12px 10px; /* Adjust padding as needed  */
+  font-size: 16px; /* Adjust font size as needed */
+  border: none; /* Remove border */
+  cursor: pointer;
+  border: radius 7px;;
+}
+.buttonviewallproduct:hover{
+  background-color: black;
+  color: rgb(105, 105, 143) ;
+}
+
+
+
+.buttonallproduct h2{
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 20px; /* Adjust the margin as needed */
+  color: #ffffff;
+}
+
+
+/* view all product */
+
+
+
+/* latest bridal collection image */
+
+.bcollection,h4{
+
+  margin-top: 55px;
+}
+
+.bcollection,h2{
+  margin-top: 30px;
+  padding-top: 30px;
+  color: #df28b7;
+}
+
+.bcollection,h5{
+  margin-top: 30px;
+  padding-top: 20px;
+}
+
+.bcollection,h4,h2,h5{
+text-align: center;
+
+
+
+}
+
+.buttonbcollection{
+  margin-top: 40px;
+margin-bottom: 30px;
+  border-radius: 5px;
+width: 145px;
+height: 50px;
+/* border-radius: 7px; */
+background-color: #ff69b4;
+color: #C2CBCE;
+}
+
+.buttonbcollection :hover{
+  color: #160212;
+  
+  
+}
+
+
+
+/* latest bridal collection image */
+
+
+
+/* animation of gift box image */
+
+.animation {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  background: url('./image/giftbox.jpeg') left top;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Align content to the bottom of the container */
+  padding: 20px; /* Add padding for better visual appearance */
+  color: white; /* Set text color */
+  font-family: Arial, sans-serif; /* Set font family */
+  margin-top: 35px;
+}
+
+.giftboxanimation {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.giftbutton {
+  background: radial-gradient(422px at -10.3% 110.7%, rgb(243, 100, 205) 9.5%, rgb(231, 119, 209) 50.8%, rgb(255, 180, 241) 88.5%);
+  color: rgb(233, 212, 212);
+  padding:  10px 20px;
+  width: 150px;
+  height: 50px;
+  /* font-size: 1.5em; */
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+
+@keyframes play-sprite {
+  100% { background-position: -400px; }
+}
+/* animation of gift box image */
+
+
+
+
+ /* slider of rounded images gallery  */
+
+ .badly {
+  margin-top: 50px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #C2CBCE;
+  overflow: hidden;
+}
+
+.slider-container {
+  overflow: hidden;
+  width: 50%; /* Set the width of the slider container */
+  margin: auto;
+}
+
+.slider {
+  display: flex;
+  animation: slideImages 15s linear infinite; /* Adjust the duration as needed */
+}
+
+.slider img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin: 0 10px; /* Adjust margin for spacing between images */
+  border-radius: 15px; /* Add border radius to make the images or slides rounded */
+}
+
+@keyframes slideImages {
+  0% {
+      transform: translateX(0);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
+
+  /* slider of rounded images gallery  */
+
+
+/* footer */
+
+.footerheader {
+  background-image:  
+  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+  url('./image/footerbackgroundimage.webp'); /* Replace with the actual path to your image file */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* filter: brightness(50%);  */
+  font-size: 12px;
+}
+
+
+
+
+/* footer */
